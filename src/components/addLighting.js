@@ -4,7 +4,7 @@
  */
 export function addLighting(state) {
     // Ambient light
-    const ambient = new state.THREE.AmbientLight(0xffffff, 0.4);
+    const ambient = new state.THREE.AmbientLight(0xffffff, 0.6);
     state.scene.add(ambient);
 
     // Main directional light

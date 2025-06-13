@@ -8,7 +8,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 export function initScene(state) {
     // Create scene with light background
     state.scene = new THREE.Scene();
-    state.scene.background = new THREE.Color(0xf0f0f0);
+    state.scene.background = new THREE.Color(0x000000);
 
     // Set up perspective camera
     state.camera = new THREE.PerspectiveCamera(

@@ -8,13 +8,13 @@ export function createProduct(state) {
     
     // Materials
     const woodMaterial = new state.THREE.MeshStandardMaterial({
-        color: 0x8b5e3c,
-        roughness: 0.7,
-        metalness: 0.2
+        color: 0x8A8ABD,
+        roughness: 0.8,
+        metalness: 0.6
     });
     
     const cushionMaterial = new state.THREE.MeshStandardMaterial({
-        color: 0x654321,
+        color: 0x8A8ABD,
         roughness: 0.9,
         metalness: 0.0
     });
